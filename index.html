@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Tic-Tac-Toe</h1>
+
+        <!-- Turn Indicator -->
+        <p id="turnIndicator">Player X's Turn</p>
+
+        <div class="game-board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+
+        <!-- Winning Message -->
+        <p class="winning-message" id="winningMessage">
+            <span id="winningMessageText"></span>
+        </p>
+
+        <!-- Buttons for Restart and Game Over -->
+        <button id="restartButton">Restart Game</button>
+        <button id="gameOverButton" class="hidden">Game Over</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
